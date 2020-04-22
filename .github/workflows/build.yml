@@ -1,0 +1,15 @@
+name: Build
+on:
+  pull_request:
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@master
+    - name: npm install and build
+      run: |
+        npm install
+        npm run build
