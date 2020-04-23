@@ -1,8 +1,19 @@
 <template>
   <div>
     <div class="rev"></div>
+    <ExFooter></ExFooter>
   </div>
 </template>
+
+<script>
+import ExFooter from "@/components/ExFooter.vue";
+
+export default {
+  components: {
+    ExFooter
+  }
+};
+</script>
 
 <style>
 html {
