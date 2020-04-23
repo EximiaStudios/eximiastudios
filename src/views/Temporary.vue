@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="rev"></div>
-    <ExFooter></ExFooter>
+    <ExFooter>COPYRIGHT 2020 © Eximia Studios ALL RIGHTS RESERVED.</ExFooter>
   </div>
 </template>
 
