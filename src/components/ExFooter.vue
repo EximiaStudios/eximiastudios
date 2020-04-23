@@ -2,7 +2,7 @@
   <div>
     <footer>
       <Center>
-        COPYRIGHT 2020 © Eximia Studios ALL RIGHTS RESERVED.
+        <slot></slot>
       </Center>
     </footer>
   </div>
@@ -18,7 +18,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 footer {
   position: relative;
   text-align: center;
