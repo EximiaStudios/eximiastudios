@@ -1,18 +1,23 @@
 <template>
   <div class="notfound">
-    <Center>
-      <h1>The page you're looking for does not exist.</h1>
-    </Center>
+    <div class="error">
+      <Center>
+        <h1>The page you're looking for does not exist.</h1>
+      </Center>
+    </div>
+    <ExFooter>COPYRIGHT 2020 © Eximia Studios ALL RIGHTS RESERVED.</ExFooter>
   </div>
 </template>
 
 <script>
 import Center from "@/components/Center.vue";
+import ExFooter from "@/components/ExFooter.vue";
 
 export default {
   name: "NotFound",
   components: {
-    Center
+    Center,
+    ExFooter
   }
 };
 </script>
@@ -20,5 +25,9 @@ export default {
 <style scoped>
 h1 {
   font-weight: 200;
+}
+
+.error {
+  height: 100vh;
 }
 </style>
