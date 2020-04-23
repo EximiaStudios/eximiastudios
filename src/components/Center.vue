@@ -38,8 +38,6 @@ export default {
 .inner {
   margin-left: auto;
   margin-right: auto;
-  width: 500px;
-  max-width: 500px;
 }
 
 @media only screen and (max-width: 600px) {
