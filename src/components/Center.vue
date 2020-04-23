@@ -16,7 +16,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 /*
   Triple div method of centering
   obtain at https://stackoverflow.com/a/6182661/5635689
