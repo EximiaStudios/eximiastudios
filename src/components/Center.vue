@@ -16,7 +16,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 /*
   Triple div method of centering
   obtain at https://stackoverflow.com/a/6182661/5635689
@@ -38,8 +38,6 @@ export default {
 .inner {
   margin-left: auto;
   margin-right: auto;
-  width: 500px;
-  max-width: 500px;
 }
 
 @media only screen and (max-width: 600px) {

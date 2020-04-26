@@ -26,9 +26,23 @@
           <h1>AHKOAVE</h1>
         </div>
       </div>
+      <div class="section">
+        <div class="empty"></div>
+        <ExFooter>© 2020 Eximia Studios.</ExFooter>
+      </div>
     </full-page>
   </div>
 </template>
+
+<script>
+import ExFooter from "@/components/ExFooter.vue";
+
+export default {
+  components: {
+    ExFooter
+  }
+};
+</script>
 
 <style>
 .rev {
@@ -90,5 +104,9 @@
 
 .ahkoave .icon {
   background-image: url("../assets/ahkoave.png");
+}
+
+.empty {
+  height: 100%;
 }
 </style>
