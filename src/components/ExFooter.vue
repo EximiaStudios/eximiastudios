@@ -2,7 +2,7 @@
   <div>
     <footer>
       <Center>
-        <Center> © 2020 {{ company }}. </Center>
+        <Center> © {{ new Date().getFullYear() }} {{ company }}. </Center>
       </Center>
     </footer>
   </div>
