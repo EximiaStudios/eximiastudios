@@ -2,7 +2,7 @@
   <div>
     <footer>
       <Center>
-        <slot></slot>
+        <Center> © {{ new Date().getFullYear() }} {{ company }}. </Center>
       </Center>
     </footer>
   </div>
@@ -12,6 +12,13 @@
 import Center from "@/components/Center.vue";
 
 export default {
+  name: "ExFooter",
+  props: {
+    company: {
+      default: "Eximia Eleven",
+      type: String
+    }
+  },
   components: {
     Center
   }

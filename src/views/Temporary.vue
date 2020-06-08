@@ -28,7 +28,7 @@
       </div>
       <div class="section">
         <div class="empty"></div>
-        <ExFooter>© 2020 Eximia Studios.</ExFooter>
+        <ExFooter />
       </div>
     </full-page>
   </div>
